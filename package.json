@@ -11,11 +11,25 @@
     "mocha": "^2.4.5",
     "mongodb": "^2.1.16",
     "morgan": "^1.7.0",
-    "object-assign":"4.1.0"
+    "object-assign":"4.1.0",
+    "highlight.js": "~9.12.0",
+    "jquery": "~3.2.1",
+    "js-cookie": "~2.1.4",
+    "prismic-javascript": "1.4.0",
+    "prismic-reactjs": "^0.2.0",
+    "prismic-toolbar": "0.0.2",
+    "qs": "^6.4.0",
+    "react": "~16.0.0",
+    "react-dom": "~16.0.0",
+    "react-router-dom": "~4.2.2",
+    "whatwg-fetch": "~2.0.3"
   },
   "engine": {
-    "node": "*",
-    "npm": "*"
+    "node": ">=4.8.1",
+    "npm": ">=2.15.11"
+  },
+  "devDependencies": {
+    "react-scripts": "~1.0.14"
   },
   "scripts": {
     "start": "node server.js",
