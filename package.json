@@ -32,8 +32,8 @@
     "react-scripts": "~1.0.14"
   },
   "scripts": {
-    "start": "npm run-script build && node server.js",
-    "build": "react-scripts build",
+    "start": "node server.js",
+    "prepublish": "react-scripts build",
     "test": "IP=0.0.0.0 PORT=3030 mocha --timeout 5000 tests/*_test.js"
   },
   "repository": {
